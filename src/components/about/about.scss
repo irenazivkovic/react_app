@@ -1,0 +1,22 @@
+.about {
+    width: 800px;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .about-text {
+        p {
+            margin: 1px 1px 1px 1px;
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            color: #3b3b3b;
+    
+            text-align: center;
+        }
+    }
+}

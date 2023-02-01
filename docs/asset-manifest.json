@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dec16c7a.css",
+    "main.js": "/static/js/main.78c6da20.js",
+    "static/media/loading-spinner.gif": "/static/media/loading-spinner.a80fb5c01e008cbcc475.gif",
+    "static/media/github-logo.svg": "/static/media/github-logo.7989bcdc01c6e37cc399c7988113e46e.svg",
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.6b051855295d065eb9fd781f996cff0f.svg",
+    "index.html": "/index.html",
+    "main.dec16c7a.css.map": "/static/css/main.dec16c7a.css.map",
+    "main.78c6da20.js.map": "/static/js/main.78c6da20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dec16c7a.css",
+    "static/js/main.78c6da20.js"
+  ]
+}

@@ -89,6 +89,7 @@ const Weather = () => {
         </div>
         <div className="options">
           <button onClick={refreshWeatherData}>Refresh Report</button>
+          <label>Auto refresh in:</label>
           <select name="refresh-interval" onChange={(e: any) => { setRefreshInterval(e) }}>
             <option value="600">10 min</option>
             <option value="1800">30 min</option>

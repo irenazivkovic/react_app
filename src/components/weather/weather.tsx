@@ -88,7 +88,7 @@ const Weather = () => {
           <p>Relative humidity: {weatherData.relativehumidity_2m} {weatherData.relativehumidity_2m_symb}</p>
         </div>
         <div className="options">
-          <button onClick={refreshWeatherData}>Refrest Report</button>
+          <button onClick={refreshWeatherData}>Refresh Report</button>
           <select name="refresh-interval" onChange={(e: any) => { setRefreshInterval(e) }}>
             <option value="600">10 min</option>
             <option value="1800">30 min</option>
@@ -98,7 +98,7 @@ const Weather = () => {
       </div>
       }
       {!isLoaded && 
-        <img src={spinner} />
+        <img src={spinner} alt="loading"/>
       }
       <Footer />
     </div>

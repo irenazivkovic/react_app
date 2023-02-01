@@ -4,7 +4,6 @@ import Header from '../header/header';
 
 import github from '../../assets/svg/github-logo.svg';
 import linekedin from '../../assets/svg/linkedin-logo.svg';
-import gmail from '../../assets/svg/gmail-logo.svg';
 
 import './about.scss';
 
@@ -19,8 +18,8 @@ const About= () => {
           If you would like to reach out to me, please do so why any of the following link.
         </p>
         <div className="contact">
-          <a href="https://github.com/irenazivkovic" id='github' target='_blank'><img src={github} /></a>
-          <a href="https://www.linkedin.com/in/irena-živković-46593422a/" id='linkedin' target='_blank'><img src={linekedin} /></a>
+          <a href="https://github.com/irenazivkovic" id='github' target='_blank'><img src={github} alt='github logo'/></a>
+          <a href="https://www.linkedin.com/in/irena-živković-46593422a/" id='linkedin' target='_blank'><img src={linekedin} alt='linkedin logo'/></a>
         </div>
       </div>
      <Footer />
